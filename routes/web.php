@@ -14,5 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome1');
+})->name('home');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name("contact.Route");
+
+Route::get('/test-bootstrap', function () {
+    return view('bootstrap');
+})->name("bootstrap");
+
+// panggil route, :: method get(), didalam get ada string penamaan routting, 
+// function(){
+//     $a = 0;
+//     return $a
+// }
+Route::get('/hello-world', function(){
+    $a = "Hello world" . 1;
+    return $a;
 });

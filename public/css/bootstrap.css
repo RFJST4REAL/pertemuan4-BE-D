@@ -1,0 +1,22 @@
+.body{
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.body form{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.d-block{
+    bottom: 0;
+}
+
+.logo-footer{
+    width: 8%;
+}

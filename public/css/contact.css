@@ -1,0 +1,71 @@
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    background-image: url(../assets/wallpaper.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2rem;
+    align-items: center;
+    padding-top: 4rem;
+    color: white;
+}
+
+.bungkus{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 10rem 5rem 10rem;
+}
+
+.bungkus input{
+    width: 20rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    border-style: none;
+    padding: 10px 5px;
+}
+
+.bungkus input:focus{
+    outline: none;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+.age{
+    display: flex;
+    flex-direction: column;
+}
+
+.tanggal{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-submit{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit{
+    display: flex;
+    border-style: none;
+    color: white;
+    background-color: rgb(106, 5, 116);
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 2rem;
+}
